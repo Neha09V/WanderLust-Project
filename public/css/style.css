@@ -1,0 +1,150 @@
+/* Apply Plus Jakarta Sans to entire site */
+body {
+  font-family: "Plus Jakarta Sans", sans-serif !important;
+  font-optical-sizing: auto !important;
+  font-weight: 400 !important;
+  font-style: normal !important;
+  display: flex;
+  flex-direction: column;
+  min-height:100vh ;
+  margin:0;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Optional: to avoid horizontal scroll */
+}
+
+.container {
+  flex: 1;
+}
+
+.wanderlust-icon {
+  height: 3.8rem;
+  width:65px;
+  display: inline-block;
+  margin-bottom: 2px;
+  margin-left: 4px;
+  border: none !important;
+  
+  
+}
+
+/* Navbar */
+.navbar {
+    height: 4rem ;
+    background-color: white;
+}
+/* .fa-airbnb {
+    color:rgb(235, 37, 37) ;
+    font-size: 2rem;
+} */
+
+
+
+.nav-link {
+    color:#222222 !important;
+}
+
+/* footer */
+  .f-info-links a{
+    text-decoration: none;
+    color:#222222 ;
+  }
+
+  .f-info-links a:hover {
+    text-decoration: underline;
+  }
+
+  .f-info-links,.f-info-socials,.f-info-brand {
+    width:100% ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     vertical-align: mid;
+  }
+   
+  .f-info-socials i {
+    font-size: 1.5rem;
+    margin-right:1rem ;
+  }
+
+  .f-info{
+     height: 8rem;
+     background-color: #ebebeb;
+     display: flex;
+     flex-wrap: wrap;
+     flex-shrink: 0;
+     justify-content: center;
+     align-items: space-evenly;
+     text-align: center;
+  }
+
+  /* Cards */
+
+  .listing-card {
+    border: none !important;
+    margin-bottom: 2rem;
+  }
+
+  .card-img-top {
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+  }
+
+  .card-body{
+    padding: 0 !important;
+  }
+
+  .card-text p{
+    font-weight: 400 !important;
+  }
+
+  .listing-link{
+     text-decoration: none;
+  }
+
+  /* Card Effect */
+  .card-img-overlay {
+    opacity: 0;
+  }
+  .card-img-overlay:hover {
+    opacity: 0.2;
+    background-color: white;
+
+  }
+
+
+   /* New page */
+.add-btn {
+  background-color: #fe424d !important;
+  border: none !important;
+}
+
+/*Edit Page */
+.edit-btn {
+  background-color: #fe424d !important;
+  border: none !important;
+  margin-bottom: 1.8rem;
+}
+
+/*Show Page */
+
+.show-img{
+  height:30vh;
+}
+
+.btns{
+  display: flex;
+}
+
+.show-card{
+  padding-left: 0;
+  padding-right: 0;
+
+}
+
+
+
+ 
